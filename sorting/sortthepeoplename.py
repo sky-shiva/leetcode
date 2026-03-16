@@ -22,6 +22,7 @@ for i in range(n):
     heights.append(height)
 
 # print("before: ")
+
 # print(names)
 for i in range(n):
     for j in range(i+1,n):
