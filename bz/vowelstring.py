@@ -10,7 +10,7 @@ else:
 
 # is this correct code fo  r the above problem statement?The code you provided checks if the entire input string `st` is a single vowel (one of 'a', 'e', 'i', 'o', 'u'). However, the problem statement seems to be asking whether the string contains only vowels, not just if it is a single vowel.
 # To check if the string contains only vowels, you can modify the code as follows:
-# st = input() # aeioueue
+# st = inpu() # aeioueue
 # vowels = 'aeiou'
 # is_vowel_string = all(char in vowels for char in st)
 # if is_vowel_string:
