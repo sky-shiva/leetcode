@@ -17,6 +17,7 @@ for i in range(len(nums)):
         esum+=nums[i]
     else:
         osum+=nums[i]
+     
 print(esum-osum)
 
     
