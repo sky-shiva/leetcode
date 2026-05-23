@@ -13,13 +13,12 @@
 # Output
 # Print the resulting string. It is guaranteed that this string is not empty.
 
-s=input()
+s = input().lower() # Convert everything to lower case at the start
+vowels = "aeiouy"
+result = ""
 
-vowels="aeiouyAEIOUY"
+for char in s:
+    if char not in vowels:
+        result += "." + char
 
-result=""
-
-for i in range(len(s)):
-    if s[i] not in vowels:
-        result +="."+s[i].lower()
-        print(result)
+print(result)
