@@ -13,7 +13,7 @@
 # print(s)
 # print(ord(s),ord(s1))
 
-s=input("enter the string : ")
+s=input()
 upper_count=0
 lower_count=0
 
