@@ -1,8 +1,6 @@
-s=input().strip
-
-if s=="":
-    print(0)
-else:   
-    remove_comma=s.split(",")
-    dis=set(remove_comma)
-    print(len(dis))
+s = input()
+distinct_letters = set()
+for ch in s:
+    if ch.isalpha():
+        distinct_letters.add(ch)
+print(len(distinct_letters))
