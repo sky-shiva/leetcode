@@ -5,5 +5,5 @@ for i in range(n):
     a,b=map(int,input().split())
     if b-a>=2:
         c+=1
-print(c)
+print(c) # submitted in codefroces
 

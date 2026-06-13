@@ -7,6 +7,6 @@ while True:
     s = str(n)
     if len(set(s))==len(s):
         print(n)
-        break
+        break # submitted in codeforces
 
   

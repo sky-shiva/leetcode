@@ -12,4 +12,4 @@ if a>d:
 elif a<d:
     print("Danik")
 else:
-    print("Friendship")
+    print("Friendship") # submitted in codeforces

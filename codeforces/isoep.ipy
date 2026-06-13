@@ -13,4 +13,4 @@ for i in range(n):
 if h>=1:
     print("Hard")
 else:
-    print("Easy")
+    print("Easy") # submitted in codeforces

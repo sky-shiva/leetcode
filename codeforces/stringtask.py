@@ -21,4 +21,4 @@ for char in s:
     if char not in vowels:
         result += "." + char
 
-print(result)
+print(result) #submitted in codeforces

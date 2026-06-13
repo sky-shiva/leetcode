@@ -11,4 +11,4 @@ for _ in range(t):
         else:
             i += 1
 
-print("".join(s))
+print("".join(s)) # submitted in codeforces
